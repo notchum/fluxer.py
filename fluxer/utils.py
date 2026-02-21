@@ -5,7 +5,7 @@ import pkgutil
 import re
 from collections.abc import Iterator
 from datetime import datetime, timezone
-from typing import Literal
+from typing import Literal, Any
 
 # Fluxer uses the same epoch as Discord: 2015-01-01T00:00:00Z
 FLUXER_EPOCH = 1420070400000
